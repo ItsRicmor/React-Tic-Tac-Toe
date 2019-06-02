@@ -1,0 +1,28 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 75px;
+    grid-gap: 1px;
+}
+
+.box {
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: 150px;
+    padding: 75px;
+    border: 1px solid #000;
+}
+
+.img-x {
+    background-image: url('../assets/img/x.png');
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: 150px
+}
+
+.img-o {
+    background-image: url("../assets/img/o.png"); 
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: 150px
+}

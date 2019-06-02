@@ -1,0 +1,48 @@
+.modal {
+    color: #333;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    background-color: #e5e5e5;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  button {
+      cursor: pointer;
+      border-radius: 5px;
+      margin: 10px;
+      padding: 5px 20px 10px 20px;
+      padding: 1vmin 4vmin 2vmin 4vmin;
+      font-size: 300%;
+      font-size: 10vmin;
+      background-color: transparent;
+      outline: none;
+      border-style: solid;
+      font-family: 'PT Mono', sans;
+  }
+  
+  button:hover {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+    background-color: khaki ;
+  }
+
+  .overlay-on .container {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+  }
+
+  .x-color {
+    color: red;
+    border-color: red;
+  }
+
+  .o-color {
+    color: green;
+    border-color: green;
+  }
