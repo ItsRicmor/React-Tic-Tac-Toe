@@ -1,6 +1,5 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 import BoardComponent from '../components/Board'
-import Player from '../game/Player'
 import Board from '../game/Board'
 export default class extends Component {
 
